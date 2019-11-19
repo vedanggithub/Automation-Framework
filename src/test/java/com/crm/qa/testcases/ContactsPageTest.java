@@ -49,7 +49,7 @@ public class ContactsPageTest extends TestBase {
 		cp.selectContactsByCount(2);
 	}
 	
-	@DataProvider
+	/*@DataProvider
 	public Object[][] getContactTestData() {
 		Object data[][]=TestUtil.getTestData(sheetname);
 	return data;
@@ -60,7 +60,7 @@ public class ContactsPageTest extends TestBase {
 		hp.newContactLink();
 		cp.creatNewContact(fname,lname,cpny);
 	 
-	}
+	}*/
 	
 	@AfterMethod
 	public void teardown() throws InterruptedException {
