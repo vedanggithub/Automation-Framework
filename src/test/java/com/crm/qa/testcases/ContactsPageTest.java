@@ -37,18 +37,18 @@ public class ContactsPageTest extends TestBase {
 	public void verifyConatctsPageLabelTest() {
 		Assert.assertTrue(cp.verifyConatctLabel(), "Cotacts lbel is not displayed");
 	}
-	
+	/*
 	@Test//(priority=2)
 	public void selectcontactTest() {
 		cp.selectContactsByCount(2);
 		
-	}
-	@Test//(priority=3)
+	}*/
+	/*@Test//(priority=3)
 	public void selectMultiContactsTest() {
 		cp.selectContactsByCount(1);
 		cp.selectContactsByCount(2);
 	}
-	
+	*/
 	/*@DataProvider
 	public Object[][] getContactTestData() {
 		Object data[][]=TestUtil.getTestData(sheetname);
