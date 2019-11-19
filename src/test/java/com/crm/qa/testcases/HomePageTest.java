@@ -42,7 +42,7 @@ public class HomePageTest extends TestBase {
 		Assert.assertEquals(hpTitle, "Cogmento CRM", "HP Title not matched");
 	}
 
-	@Test
+	/*@Test
 	public void verifyHomePageNameLabel() {
 		String hpNameLabel = hp.validateHomePageNameLable();
 		Assert.assertEquals(hpNameLabel, "Lakshay V", "HP NameLabel not matched");
@@ -56,7 +56,7 @@ public class HomePageTest extends TestBase {
 	@Test
 	public void verifyDealsPageLinkTest() {
 		dp = hp.clickDealslink();
-	}
+	}*/
 //	@Test(priority=5)
 //	public void verifyTaskPageTest() {
 //		tp=hp.clickTasklink();
